@@ -12,7 +12,7 @@ def line(katz_deli)
   puts linestring
 end
 
-def take_a_number(person, katz_deli)
+def take_a_number(katz_deli, person)
   katz_deli.push(person)
   puts "Welcome, #{person}. You are number #{katz_deli.count} in line."
 end
