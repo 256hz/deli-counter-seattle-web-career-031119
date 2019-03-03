@@ -1,9 +1,9 @@
 katz_deli = []
 
 def line(katz_deli)
-  if deli_line.count > 0
+  if katz_deli.count > 0
     linestring = "The line is currently:"
-    deli_line.each.with_index(1) do |name, index|
+    katz_deli.each.with_index(1) do |name, index|
       linestring += " #{index}.#{name}"
     end
   else
