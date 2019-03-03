@@ -9,5 +9,5 @@ def line(katz_deli)
   else
     linestring =  "The line is currently empty."
   end
-  linestring
+  puts linestring
 end
